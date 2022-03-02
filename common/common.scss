@@ -2,9 +2,9 @@
   display: grid;
   grid-template-areas:
     "header header header header"
-    "left-margin sidebar main-outlet right-margin"
+    "left-margin main-outlet sidebar right-margin"
     "footer footer footer footer";
-  grid-template-columns: 1fr 200px calc(1110px - 200px) 1fr;
+  grid-template-columns: 1fr calc(1110px - 200px) 200px 1fr;
   /* 1110px is our default max-width, used on .wrap */
 }
 
