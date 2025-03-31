@@ -5,6 +5,7 @@
     "left-margin main-outlet sidebar right-margin"
     "footer footer footer footer";
   grid-template-columns: 1fr calc(1110px - 200px) 200px 1fr;
+
   /* 1110px is our default max-width, used on .wrap */
 }
 
@@ -17,6 +18,7 @@
   align-self: start;
   position: sticky;
   top: calc(var(--header-offset) + 2.5em);
+
   /* 2.5em matches the top padding on #main-outlet */
 }
 
@@ -28,6 +30,7 @@
 .above-footer-outlet,
 .below-footer-outlet {
   grid-area: footer;
+
   /* 
      If more than one of these container are used, 
      some adjustment to the grid layout will be needed
